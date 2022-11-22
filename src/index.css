@@ -1,0 +1,198 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(../src/assets/gify.gif);
+  background-size: 1275px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.main-temp {
+  font-size: 5rem;
+}
+
+.weather {
+  color: #59d860;
+  font-family: 'Mulish', sans-serif;
+  right: 70%;
+  bottom: 10%;
+}
+
+.weather-content {
+  animation: fadeIn 1s ease-in-out;
+}
+
+.weather .container {
+ 
+}
+
+.top-info {
+  grid-row: 1 / span 1;
+}
+
+.weather-container {
+  float: right;
+  height: 100%;
+ 
+}
+
+.big-temp {
+  font-size: 90px;
+  font-weight: 600;
+  text-shadow: 0 5px 8px rgba(3, 3, 3, 0.746);
+  position: absolute;
+  bottom: 60%;
+  right: 25%;
+  
+}
+
+.location {
+  font-size: 70px;
+  position: absolute;
+  right: 45%;
+  left: 63%;
+  top: 15%;
+}
+
+.description {
+  font-size: 1.5rem;
+  font-weight: 300;
+  position: absolute;
+  right: 70%;
+  left: 10%;
+  bottom: 81%;
+}
+
+.sm-title {
+  font-size: .8rem;
+  opacity: 0.8;
+  font-style: italic;
+  color: #58eff7;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #e5e7ea1c;
+}
+
+.wind-details {
+  font-size: 0.9rem;
+  font-weight: 400;
+  position: absolute;
+  right: 70%;
+  left: 25%;
+  bottom: 86%;
+}
+
+.labels, {
+
+}
+
+.line-ht-1-5 {
+  line-height: 1.5rem;
+}
+
+.sm-labels {
+  font-size: 0.7rem;
+  opacity: 0.8;
+  margin-left: 4px;
+  font-weight: 300;
+  
+}
+
+.detail-stats {
+  width: 100%;
+  padding-top: 0.4rem;
+  position: relative;
+  right: 70%;
+  left: 25%;
+  bottom: 70%;
+}
+
+.arrow {
+  padding: 0.2rem;
+  width: 70px;
+  transform: all 300ms ease-in;
+}
+
+.wind-wrapper {
+ position: relative;
+  right: 70%;
+  left: 25%;
+  bottom: 86%;
+}
+
+
+.title{
+  height: 100px;
+  width: 100%;
+  
+}
+
+.weather-icon {
+  position: relative;
+  right: 0%;
+  left: 90%;
+  bottom: 50%;
+ 
+
+}
+
+.wind.grid-auto-1fr-col {
+ 
+}
+
+h2 {
+  position: absolute;
+  right: 50%;
+  left: 0%;
+  bottom: 85%;
+}
+
