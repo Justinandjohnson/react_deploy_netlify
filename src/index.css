@@ -67,9 +67,7 @@ code {
   animation: fadeIn 1s ease-in-out;
 }
 
-.weather .container {
- 
-}
+
 
 .top-info {
   grid-row: 1 / span 1;
@@ -131,9 +129,7 @@ code {
   bottom: 86%;
 }
 
-.labels, {
 
-}
 
 .line-ht-1-5 {
   line-height: 1.5rem;
@@ -184,11 +180,6 @@ code {
  
 
 }
-
-.wind.grid-auto-1fr-col {
- 
-}
-
 h2 {
   position: absolute;
   right: 50%;
